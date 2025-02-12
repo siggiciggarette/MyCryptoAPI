@@ -1,1 +1,42 @@
+# .NET Core & C# API Project Git Ignore File
+
+# Build output
+bin/
 obj/
+
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.tlog
+
+# Package directories
+packages/
+node_modules/
+
+# Environment and config files
+.env
+appsettings*.json
+secrets.json
+
+# Git specific
+*.orig
+*.lock
+
+# AWS Elastic Beanstalk specific
+.elasticbeanstalk/
+.aws/
+
+# Docker specific
+Dockerfile
+*.dockerignore
+
+# GitHub Actions specific
+.github/workflows/*.bak
+.github/workflows/*.temp
+
